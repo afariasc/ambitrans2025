@@ -1,0 +1,241 @@
+#home {
+
+    @media (max-width: 768px) {
+        & {
+            padding-top: 56px;
+        }
+    }
+}
+
+header.section.page-header {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+}
+
+header.section.page-header .rd-navbar {
+    background: transparent;
+}
+
+header.section.page-header .rd-navbar a.rd-nav-link {
+    color: #fff;
+
+    @media (max-width: 768px) {
+        & {
+            color: #151515;
+        }
+    }
+}
+
+header.section.page-header .rd-nav-item.active .rd-nav-link {
+    color: #fff;
+}
+
+/* Colores al activar barra scroll */
+
+.rd-navbar--is-stuck.rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
+    max-width: 90px;
+    max-height: 90px;
+    transition: ease-in-out .4s;
+}
+
+.rd-navbar.rd-navbar--is-stuck.rd-navbar-classic.rd-navbar-static .rd-nav-link::before {
+    background: #6689ff;
+}
+
+header.section.page-header .rd-navbar.rd-navbar--is-stuck a.rd-nav-link {
+    color: #151515;
+}
+
+/* Fin Colores al activar barra scroll */
+
+header.section.page-header .rd-navbar.rd-navbar--is-stuck {
+    background: #ffffffeb;
+}
+
+header.section.page-header .rd-navbar.rd-navbar--is-stuck .rd-nav-item.active .rd-nav-link {
+    color: #151515;
+}
+
+.rd-navbar-nav {
+    padding: 15px 0 0;
+}
+
+.homeHeader {
+    height: 400px;
+}
+
+.p-style-border-b {
+    display: table;
+    position: relative;
+    margin: 5px auto 30px;
+
+    &:after {
+        content: "";
+        width: 75%;
+        height: 2px;
+        background: #6689ff;
+        display: block;
+        margin: 5px auto 0;
+    }
+}
+
+.headerBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(../images/swiper/working.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(0 0 0 / 50%);
+    }
+}
+
+.footer-dark {
+   background-color: #002147; 
+   color: #ffffff;          
+}
+  
+.footer-dark a {
+    color: #ffffff;          
+    text-decoration: none;   
+}
+  
+.footer-dark a:hover {
+    color: #00bfff;          
+    text-decoration: underline; 
+}
+
+.footer-dark .company-name {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+        & {
+            font-size: 2rem;
+            margin: 0 auto;
+        }
+    }
+}
+  
+.footer-dark .company-tagline {
+    font-size: 1rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    @media (max-width: 768px) {
+        & {
+            margin: 0 auto;
+        }
+    }
+}
+  
+.footer-dark .company-description {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 10px;
+    line-height: 1.6;
+    max-width: 90%; 
+
+    @media (max-width: 768px) {
+        & {
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+}
+
+.svg-w {
+    width: 100%;
+    position: relative;
+    width: 100%;
+    padding-bottom: 2.5%;
+    align-self: stretch;
+    pointer-events: none;
+    z-index: 1;
+
+    @media (max-width: 1440px) {
+        & {
+            left: calc(50% - 720px);
+            width: 1440px !important;
+        }
+    }
+
+    svg {
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        -ms-flex-item-align: start;
+        align-self: flex-start;
+        width: calc(100% + 30px);
+        top: 0;
+        left: -15px;
+        transform: scale(1, 1) translateY(-100%) translateY(1px);
+    }
+}
+
+.modal-content {
+    position: relative;
+
+    .close{
+        cursor: pointer;
+        background: #6689ff;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.5rem;
+        line-height: 1;
+        padding: .5rem;
+    }
+}
+
+.whatsapp {
+    display: none;
+    position: fixed;
+    width: 100%;
+    max-width: 225px;
+    background-color: #25d366;
+    bottom: 20px;
+    left: 40px;
+    z-index: 10;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+
+    @media (max-width: 768px) {
+        & {
+            left: 10px;
+            bottom: 15px;
+        }
+    }   
+
+    a {
+        display: flex;
+        align-items: center;
+        color: #151515;
+        text-decoration: none;
+        font-weight: bold;
+        justify-content: space-between;
+        padding: .5rem;
+        border-radius: 5px;
+        text-transform: uppercase;
+    }
+}
