@@ -10593,10 +10593,10 @@ html.boxed body {
 }
 
 @media (min-width: 576px) {
-	.text-img {
-		font-size: 410px;
-		height: 355px;
-	}
+    .text-img {
+        font-size: 310px;
+        height: 256px;
+    }
 }
 
 @supports (-webkit-background-clip: text) {
@@ -17398,7 +17398,7 @@ h1 + .tabs-line {
 }
 
 .counter-amy-number {
-	font-size: 110px;
+	font-size: 65px;
 	line-height: 0.8;
 	font-weight: 300;
 	letter-spacing: .1em;

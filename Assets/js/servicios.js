@@ -54,22 +54,6 @@ const data = {
         "Catastro en Rutas de Camiones",
         "Medición de Actividad de Paraderos de Transporte Público",
         "Recolección de Información de Accidentes de Tránsito"
-    ],
-    "Evaluación Ambiental": [
-        "Declaraciones de Impacto Ambiental (DIA)",
-        "Cartas Consulta de Pertinencia de Ingreso al SEIA"
-    ],
-    "Otros Estudios y Asesorías": [
-        "Estudios de Base Ambientales",
-        "Seguimiento Ambiental, verificación de cumplimiento en temas de Transporte y Vialidad",
-        "Cálculo de Emisiones Atmosféricas",
-        "Catastro de Información Territorial, entre otros"
-    ],
-    "Estudios de Turismo": [
-        "Línea de Base Turismo",
-        "Evaluación de Impactos en Turismo",
-        "Diseño de Productos Turísticos",
-        "Determinación de Segmentos de Mercado"
     ]
 };
 
