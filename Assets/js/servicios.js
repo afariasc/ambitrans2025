@@ -2,7 +2,6 @@
 const data = {
     "Evaluación de Impacto Vial": [
         "Informe de Mitigación de Impacto Vial (IMIV)",
-        "Análisis Vial Básico (AVB)",
         "Estudios de Impacto Vial (EIV)"
     ],
     "Logística Vial": [
